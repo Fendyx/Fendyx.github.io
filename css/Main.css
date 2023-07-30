@@ -9,10 +9,12 @@
   height: 500px;
   text-align: center;
   border-bottom: 5px black;
-  background: #333;
+  background: #333 no-repeat center top;;
   color: #fff;
   line-height: 100px;
   margin-bottom: 50px;
+  background-size: cover;
+  background-attachment: fixed;
 }
 #footer {
   padding: 30px 30px 30px 30px;
