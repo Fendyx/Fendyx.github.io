@@ -19,7 +19,7 @@ body {
   position: relative;
   width: inherit;
   height: inherit;
-  background-image: url(/home/fainsyy_pro/Fendyx.github.io/Images/Students.jpg);
+  background-image: url(../Images/Students.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
