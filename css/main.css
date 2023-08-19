@@ -1,0 +1,58 @@
+#main {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#Polish {
+  margin-top: 100px;
+  margin-bottom: 200px;
+  margin-right: 3vw;
+  margin-left: 3vw;
+}
+#British {
+  margin-right: 3vw;
+  margin-left: 3vw;
+  margin-bottom: 200px;
+}
+#USA {
+  margin-bottom: 200px;
+  margin-right: 3vw;
+  margin-left: 3vw;
+}
+
+.flag {
+  width: 40vw;
+  height: 480px;
+  float: left;
+  transition: 2s;
+  margin-right: 4vw;
+  border-radius: 15%;
+}
+
+.flag:hover, .flag_right:hover {
+  transform: scale(1.15);
+}
+
+.flag_right {
+  width: 40vw;
+  height: 480px;
+  float: right;
+  transition: 2s;
+  margin-left: 4vw;
+  border-radius: 15%;
+}
+
+.information {
+  margin-right: 3vw;
+  box-sizing: border-box;
+  width: 50vw;
+  height: 480px;
+  padding: 70px;
+  overflow: scroll;
+  border: 5px solid purple;
+  border-radius: 30px;;
+  border-top-left-radius: 200px;
+}
+
+
+
