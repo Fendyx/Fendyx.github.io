@@ -1,57 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 #main {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  
 }
 
-#Polish {
+.introduction{
+  padding: 5%;
+  border: 2px solid black;
+  line-height: 50px;
+}
+.introduction p{
+  font-size: 1.5em;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+.introduction a{
+  font-size: 1.5em;
+  text-decoration: none;
+  color: black;
+}
+
+.courses{
+  position: relative;
   margin-top: 100px;
-  margin-bottom: 200px;
-  margin-right: 3vw;
-  margin-left: 3vw;
+  margin-bottom: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 30px; /*3.03%*/
+  width: 96%;
+  border: 3px solid black;
+  border-radius: 50px;
+  box-sizing: border-box;
 }
-#British {
-  margin-right: 3vw;
-  margin-left: 3vw;
-  margin-bottom: 200px;
+.courses_info {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.3em;
+  line-height: 30px;
 }
-#USA {
-  margin-bottom: 200px;
-  margin-right: 3vw;
-  margin-left: 3vw;
+i {
+  color: #999c08;
+  font-size: 1.8em;
+}
+
+
+#Polish {
+  height: 800px;
 }
 
 .flag {
-  width: 40vw;
-  height: 480px;
+  position: relative;
   float: left;
-  transition: 2s;
-  margin-right: 4vw;
-  border-radius: 15%;
-}
-
-.flag:hover, .flag_right:hover {
-  transform: scale(1.15);
-}
-
-.flag_right {
-  width: 40vw;
-  height: 480px;
-  float: right;
-  transition: 2s;
-  margin-left: 4vw;
-  border-radius: 15%;
-}
-
-.information {
-  margin-right: 3vw;
-  box-sizing: border-box;
-  width: 50vw;
-  height: 480px;
-  padding: 70px;
-  overflow: scroll;
-  border: 5px solid purple;
-  border-radius: 30px;;
-  border-top-left-radius: 200px;
+  width: 40%;
+  height: 400px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  border-radius: 50px;
 }
 
 

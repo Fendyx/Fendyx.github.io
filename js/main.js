@@ -1,3 +1,6 @@
-function onclick(){
-    document.write("You cliced on the bottom");
+var a = document.getElementsByClassName("login");
+var b = document.getElementById("JoeBiden");
+
+if (a == ""){
+    b.style.cssText = "opacity: 0.5;";
 }
