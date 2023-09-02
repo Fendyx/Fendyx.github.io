@@ -33,7 +33,7 @@ body {
 }
 
 
-#logo {
+/* #logo {
   position: absolute;
   display: inline-block;
   z-index: 2;
@@ -43,7 +43,7 @@ body {
   margin-bottom: 20px;
   left: 50px;
   top: 75px;
-}
+} */
 
 
  #login_register {
